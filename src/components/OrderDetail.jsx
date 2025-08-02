@@ -20,8 +20,7 @@ function Orderdetail() {
     };
 
   return (
-    <div className="flex justify-center items-center w-full h-screen">
-      <div className="flex flex-col px-8 py-4 items-center w-full max-w-[800px] max-h-screen border-2 border-amber-200 rounded-lg" style={textureStyle}>
+      <div className="flex flex-col px-8 py-4 items-center w-full max-w-[800px] max-h-screen border-2 border-amber-200 rounded-lg overflow-auto" style={textureStyle}>
         <div className="flex justify-between w-full text-2xl font-extrabold">
           <span className="flex items-center gap-2">
             <GiToaster />
@@ -108,7 +107,6 @@ function Orderdetail() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
 

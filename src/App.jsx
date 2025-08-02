@@ -9,7 +9,7 @@ function App() {
       <div className="sticky top-0 z-50">
         <Navbar />
       </div>
-      <div className='flex items-center justify-center gap-0'>
+      <div className='flex justify-center items-center w-full h-screen gap-4'>
         <Orderdetail></Orderdetail>
         <Order></Order>
       </div>

@@ -15,7 +15,6 @@ function Order(){
     };
 
     return (
-        <div className="flex justify-center items-center w-full h-screen">
             <div className=" px-8 py-4 w-full max-w-[800px] max-h-screen bg-white border-2 border-amber-200 rounded-lg" style={textureStyle}>
                 <span className="flex items-center text-2xl font-extrabold gap-2 mt-2"><FaClock />Incoming orders</span>
                 <div className="flex justify-between items-center gap-4 p-4 my-4">
@@ -49,7 +48,6 @@ function Order(){
                     </div>
                 ))}
             </div>
-        </div>
     )
 }
 
