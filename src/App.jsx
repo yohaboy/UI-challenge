@@ -4,8 +4,10 @@ import './index.css';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-200 text-black">
-      <Navbar></Navbar>
+    <div className="min-h-screen bg-[#1a1a1a] text-black">
+      <div className="sticky top-0 z-50">
+        <Navbar />
+      </div>
       <Orderdetail></Orderdetail>
     </div>
   );

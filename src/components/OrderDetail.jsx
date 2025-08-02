@@ -13,9 +13,15 @@ const items = [
 ];
 
 function Orderdetail() {
+
+ const textureStyle = {
+        backgroundImage: 'url("/assets/surface.png")',
+        backgroundColor: '#FFFDD0',
+    };
+
   return (
     <div className="flex justify-center items-center w-full h-screen">
-      <div className="flex flex-col px-8 py-4 items-center w-full max-w-[800px] max-h-screen bg-[#FFFDD0]">
+      <div className="flex flex-col px-8 py-4 items-center w-full max-w-[800px] max-h-screen bg-[#FFFDD0]" style={textureStyle}>
         <div className="flex justify-between w-full text-2xl font-extrabold">
           <span className="flex items-center gap-2">
             <GiToaster />
@@ -36,7 +42,7 @@ function Orderdetail() {
               </span>
               <span className="flex items-center gap-2">
                 <GoDotFill />
-                TBDTBD:7
+                TBD:7
               </span>
               <span className="flex items-center gap-2">
                 <GoDotFill />
