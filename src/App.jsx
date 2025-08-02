@@ -1,4 +1,5 @@
 import Navbar from './components/NavBar';
+import Order from './components/Order';
 import Orderdetail from './components/OrderDetail';
 import './index.css';
 
@@ -8,7 +9,10 @@ function App() {
       <div className="sticky top-0 z-50">
         <Navbar />
       </div>
-      <Orderdetail></Orderdetail>
+      <div className='flex items-center justify-center gap-0'>
+        <Orderdetail></Orderdetail>
+        <Order></Order>
+      </div>
     </div>
   );
 }

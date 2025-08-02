@@ -21,7 +21,7 @@ function Orderdetail() {
 
   return (
     <div className="flex justify-center items-center w-full h-screen">
-      <div className="flex flex-col px-8 py-4 items-center w-full max-w-[800px] max-h-screen bg-[#FFFDD0]" style={textureStyle}>
+      <div className="flex flex-col px-8 py-4 items-center w-full max-w-[800px] max-h-screen border-2 border-amber-200 rounded-lg" style={textureStyle}>
         <div className="flex justify-between w-full text-2xl font-extrabold">
           <span className="flex items-center gap-2">
             <GiToaster />
@@ -103,8 +103,8 @@ function Orderdetail() {
           </div>
 
           <div className="flex justify-between px-4 text-lg font-bold">
-            <span className="flex items-center gap-2 hover:cursor-pointer border-3 p-4 rounded"><MdOutlineCancel size={24} color="red" />Reject Order</span>
-            <span className="flex items-center gap-2 hover:cursor-pointer border-3 p-4 rounded"><ImCheckmark size={24} color="green"/>Mark as preparing</span>
+            <span className="flex items-center gap-2 hover:cursor-pointer hover:bg-red-300 border-3 p-4 rounded"><MdOutlineCancel size={24} color="red" />Reject Order</span>
+            <span className="flex items-center gap-2 hover:cursor-pointer hover:bg-green-300 border-3 p-4 rounded"><ImCheckmark size={24} color="green"/>Mark as preparing</span>
           </div>
         </div>
       </div>
