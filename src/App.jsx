@@ -4,7 +4,7 @@ import './index.css';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
+    <div className="min-h-screen bg-gray-200 text-black">
       <Navbar></Navbar>
       <Orderdetail></Orderdetail>
     </div>

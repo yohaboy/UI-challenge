@@ -8,7 +8,7 @@ import { RiLogoutCircleRLine } from "react-icons/ri";
 
 function Navbar() {
     return (
-      <nav className="flex items-center justify-between px-8 py-4 shadow bg-black">
+      <nav className="flex items-center justify-between px-8 py-4 shadow bg-black text-white">
         <div className="text-2xl font-semibold">Order Sphere</div>
         <ul className="flex gap-8 text-md font-medium">
           <li><a href="#" className="hover:text-blue-600 flex items-center gap-1"><GoChecklist /> Orders</a></li>
