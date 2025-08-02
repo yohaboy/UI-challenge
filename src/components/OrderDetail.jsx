@@ -9,6 +9,8 @@ const items = [
   { name: "Burger", qty: 2, price: 10 },
   { name: "Pizza", qty: 1, price: 12 },
   { name: "Injera", qty: 1, price: 8 },
+  { name: "cholocate", qty: 1, price: 38 },
+  { name: "soap", qty: 1, price: 83 },
   
 ];
 

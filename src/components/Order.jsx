@@ -5,7 +5,7 @@ const items = [
     { name: "jane smith", TBD: 8, food: "2x burger, 1x fries, 1x water", time: "10", status: "completed" },
     { name: "michael lee", TBD: 15, food: "1x pizza, 2x sprite", time: "2", status: "completed" },
     { name: "alice brown", TBD: 5, food: "3x tacos, 1x juice", time: "7", status: "pending" },
-    { name: "david kim", TBD: 9, food: "1x wrap, 2x iced tea, 1x cookie", time: "5", status: "pending" }
+    { name: "david kim", TBD: 9, food: "1x wrap, 2x iced tea, 1x cookie", time: "5", status: "pending" },
 ];
 
 function Order(){
